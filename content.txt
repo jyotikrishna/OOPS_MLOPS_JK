@@ -1,0 +1,15 @@
+1. Class and Object (examples)
+2. Class has always data/attributes. Class has functions/methods.
+3. Why Python is called object oriented programming (OOP)?
+    Ans. Everything in Python is an object (data structure, data type etc.)
+
+4. What is the speciality of constructor __init__
+    Ans. All the data inside the constructor gets called automatically when we create the object of the class. 
+    We define the properties that you are not expecting a user to do things manually. 
+
+5. Advantages of OOPs concept:
+    You can create your own data type.
+    Code reusability
+    code debugging
+    easy to colab
+
