@@ -30,3 +30,5 @@
                 Child can inherit constructor, non-private (__) attributes, non-private methods from parent class. 
     Constructor and method overloading
     Super keyword : Only used inside child class
+    Types of inheritance 
+    H.W. Do the hybrid inheritance
