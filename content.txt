@@ -14,7 +14,13 @@
     easy to colab
 
 6. Created end to end project (Chatbook class)
+    function vs method
+    magic method or dunder method!
+    what is self?
+    You can create attribute outside class as well.
+
     Encapsulation
     Getter and Setter
     Static method
+    Inheritance
 

@@ -1,11 +1,33 @@
 class chatbook:
+
+    __user_id = 0
     #defining attributes and data in this class
     def __init__(self):
+        self.id = chatbook.__user_id
+        chatbook.__user_id +=1
+        #self.user_id = 0
+        #self.user_id +=1
+
+        self.__name = "Default User" #Hidden attribute
         self.username = ''
         self.password = ''
         self.loggedin = False
-        self.menu()  #Definining method in the constructor itself
+        #self.menu()  #Definining method in the constructor itself
 
+    @staticmethod
+    def get_id(self):
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(self,val):
+        chatbook.__user_id = val
+
+
+    def get_name(self):        #Getter
+        return self.__name
+    
+    def set_name(self, value):   #Set new value
+        self.__name = value
 
     # Lets create a method now
     def menu(self):
@@ -17,6 +39,8 @@ class chatbook:
                            5. Press other key to exit.
                            
                            """)
+        
+
         if user_input == '1':
             self.signup()
         elif user_input == '2':
@@ -72,5 +96,5 @@ class chatbook:
 
 
 #Define an object now
-#obj = chatbook()     
+obj = chatbook()     
 

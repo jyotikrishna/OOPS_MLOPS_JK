@@ -3,11 +3,14 @@
 class employee:  #Create a class called employee
     # Create a data/attribute here. This is called as special method/magic method/dunder method or simply called as constructor.
     def __init__(self):
-        print("Started executing attributes/data")
+        #print(id(self))
+        #print("Started executing attributes/data")
+
         self.id = 123
         self.salary = 50000
         self.designation = "SDE"
-        print("Attributes/data have been initiated")
+
+        #print("Attributes/data have been initiated")
 
     #Create a method/function (Defining a function in class is generally called as method)
     def travel(self, destination):
@@ -17,8 +20,15 @@ class employee:  #Create a class called employee
 # create an object/instance of the class
 sam = employee()  #sam is an object of the class employee
 #print(sam.salary)
+#print(id(sam)) #You will find the same id as self. That means that whenever you create an object basically it is a self.
+
+#You can create an attribute outside the class as well. 
+#sam.name = "Sam Kumar"
+#print(sam.name) 
+
+
 
 #Calling a method
-sam.travel("Kerala")
+#sam.travel("Kerala")
 
 #print(type(sam)) #type is employee class
