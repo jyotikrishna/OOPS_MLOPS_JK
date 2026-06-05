@@ -22,5 +22,11 @@
     Encapsulation
     Getter and Setter
     Static method
-    Inheritance
-
+   
+7.  Inheritance
+    What is inheritance? 
+    Why inheretance is needed? 
+        Ans. For code reusability. Parent can use the attributes of the child class.
+                Child can inherit constructor, non-private (__) attributes, non-private methods from parent class. 
+    Constructor and method overloading
+    Super keyword : Only used inside child class

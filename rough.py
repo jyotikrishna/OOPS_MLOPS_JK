@@ -40,7 +40,7 @@ lst.clear() # When you do lst. then you will see many methods.
 
 #Encapsulation
 
-
+#from oops_proj import chatbook 
 
 
 #print(obj.__name) # You cant access this because it is encapsulated
@@ -55,12 +55,12 @@ lst.clear() # When you do lst. then you will see many methods.
 
 #Static Method
 
-from oops_proj import chatbook 
+#from oops_proj import chatbook 
 
 
-obj1 = chatbook()
-print(obj1.id)
+#obj1 = chatbook()
+#print(obj1.id)
 
-obj2 = chatbook()
-obj2.set_id(10)  # check error here
-print(obj2.id)
+#obj2 = chatbook()
+#obj2.set_id(10)  # check error here
+#print(obj2.id)
