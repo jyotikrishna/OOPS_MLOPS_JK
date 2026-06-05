@@ -11,7 +11,10 @@ my_int = 155
 lst.clear() # When you do lst. then you will see many methods.
 #print(lst)
 
-a = 'x'
-b = 'y'
+#a = 'x'
+#b = 'y'
 #print(a+b)
 
+#Use of class and object in Python as module
+from oops_proj import chatbook 
+user1 = chatbook()

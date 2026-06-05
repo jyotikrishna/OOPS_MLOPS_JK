@@ -13,3 +13,8 @@
     code debugging
     easy to colab
 
+6. Created end to end project (Chatbook class)
+    Encapsulation
+    Getter and Setter
+    Static method
+
